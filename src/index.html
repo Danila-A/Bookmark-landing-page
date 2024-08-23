@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Bookmark landing page</title>
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="header__inner contentConteiner">
             <div class="header__logo">
-                <img src="img/logo-bookmark.svg" alt="logo">
+                <img class="logo" src="img/logo-bookmark.svg" alt="logo">
             </div>
             <div class="header__mobile-buttons">
                 <img class="header__closeIcon header__closeIcon_display_none" src="img/icon-close.svg" alt="">
-                <img class="header__hamburgerIcon header__hamburgerIcon_display_none" src="img/icon-hamburger.svg" alt="">
+                <img class="header__hamburgerIcon header__hamburgerIcon_display_yes" src="img/icon-hamburger.svg" alt="">
             </div>
             <nav class="header__nav">
                 <ul class="navList">
-                    <li class="navList__item">features</li>
-                    <li class="navList__item">pricing</li>
-                    <li class="navList__item">contact</li>
-                    <li class="navList__item">
+                    <li class="navList__item header__navItem">features</li>
+                    <li class="navList__item header__navItem">pricing</li>
+                    <li class="navList__item header__navItem">contact</li>
+                    <li class="navList__item header__navItem">
                         <div class="redButton">
-                            loging
+                            login
                         </div>
                     </li>
                 </ul>
+                <div class="header__social header__social_display_none">
+                    <img class="header__socialLink" src="img/icon-facebook.svg" alt="facebook">
+                    <img class="header__socialLink" src="img/icon-twitter.svg" alt="twitter">
+                </div>
             </nav>
         </div>
     </header>
@@ -34,15 +39,21 @@
     <section class="mainBanner">
         <div class="mainBanner__inner contentConteiner">
             <div class="mainBanner__info">
-                <h1 class="title">a simple bookmark manager</h1>
+                <h1 class="mainBanner__title title">a simple bookmark manager</h1>
                 <div class="mainBanner__text">
                     A clean and simple interface to organize your favourite websites. 
-                    Open a new browser tab and see your sites load instantly. Try it for free</div>
+                    Open a new browser tab and see your sites load instantly. Try it for free
+                </div>
+                <div class="mainBanner__buttons">
+                    <button class="blueButton">Get it on Chrome</button>
+                    <button class="whiteButton">Get it on Firefox</button>
+                </div>
             </div>
             <div class="mainBanner__img">
                 <img src="img/illustration-hero.svg" alt="beautiful img">
+                <div class="blueBlock mainBanner__blueBlock"></div>
             </div>
-            <div class="blueBlock"></div>
+            
         </div>
     </section>
 
@@ -93,25 +104,43 @@
             </div>
             <div class="extensions">
                 <div class="extensions__card">
-                    <div class="extensions__cardImg"></div>
+                    <div class="extensions__cardImg">
+                        <img src="img/logo-chrome.svg" alt="chrome">
+                    </div>
                     <div class="extensions__cardTitle">card title</div>
                     <div class="extensions__cardText">text</div>
-                    <div class="extensions__cardBorderImg"></div>
-                    <div class="extensions__cardButton"></div>
+                    <div class="extensions__cardBorderImg">
+                        <img src="img/bg-dots.svg" alt="dots">
+                    </div>
+                    <div class="extensions__cardButton">
+                        <div class="blueButton blueButton_width_100">add & install extension</div>
+                    </div>
                 </div>
                 <div class="extensions__card">
-                    <div class="extensions__cardImg"></div>
+                    <div class="extensions__cardImg">
+                        <img src="img/logo-firefox.svg" alt="firefox">
+                    </div>
                     <div class="extensions__cardTitle">card title</div>
                     <div class="extensions__cardText">text</div>
-                    <div class="extensions__cardBorderImg"></div>
-                    <div class="extensions__cardButton"></div>
+                    <div class="extensions__cardBorderImg">
+                        <img src="img/bg-dots.svg" alt="dots">
+                    </div>
+                    <div class="extensions__cardButton">
+                        <div class="blueButton blueButton_width_100">add & install extension</div>
+                    </div>
                 </div>
                 <div class="extensions__card">
-                    <div class="extensions__cardImg"></div>
+                    <div class="extensions__cardImg">
+                        <img src="img/logo-opera.svg" alt="opera">
+                    </div>
                     <div class="extensions__cardTitle">card title</div>
                     <div class="extensions__cardText">text</div>
-                    <div class="extensions__cardBorderImg"></div>
-                    <div class="extensions__cardButton"></div>
+                    <div class="extensions__cardBorderImg">
+                        <img src="img/bg-dots.svg" alt="dots">
+                    </div>
+                    <div class="extensions__cardButton">
+                        <div class="blueButton blueButton_width_100">add & install extension</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -195,6 +224,6 @@
         </div>
     </footer>
 
-    <script src=""></script>
+    <script src="js/main.min.js"></script>
 </body>
 </html>

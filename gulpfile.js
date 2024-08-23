@@ -31,8 +31,17 @@ const paths = {
         dest: 'dist/js/'
     },
     images: {
-        src: 'src/blocks/**',
+        src: 'src/img/**',
         dest: 'dist/img/'
+    },
+    fonts: {
+        src: [
+            'src/fonts/**/*.woff2',
+            'src/fonts/**/*.woff',
+            'src/fonts/**/*.ttf',
+            'src/fonts/**/*.eot',
+            ],
+        dest: 'dist/fonts/'
     }
 }
 
@@ -104,11 +113,19 @@ function watch() {
     gulp.watch(paths.styles.src, styles);
     gulp.watch(paths.scripts.src, scripts);
     gulp.watch(paths.images.src, minImg);
+    gulp.watch(paths.fonts.src, fonts);
 }
 
-const build = gulp.series(clean, html, gulp.parallel(styles, scripts, minImg), watch);
+function fonts() {
+    return gulp.src(paths.fonts.src)
+    .pipe(gulp.dest(paths.fonts.dest))
+    .pipe(browserSync.stream())
+}
+
+const build = gulp.series(clean, html, gulp.parallel(styles, scripts, minImg, fonts), watch);
 
 exports.clean = clean;
+exports.fonts = fonts;
 exports.html = html
 exports.minImg = minImg;
 exports.styles = styles;

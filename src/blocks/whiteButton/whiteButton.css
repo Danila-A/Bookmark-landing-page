@@ -1,0 +1,25 @@
+.whiteButton {
+    color: var(--soft_black);
+    background-color: var(--dark_white);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: var(--nav_font_size);
+    border: 2px solid transparent;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    box-shadow: 0px 10px 10px var(--shadow);
+    cursor: pointer;
+}
+.whiteButton:hover {
+    border: 2px solid var(--soft_black);
+}
+@media screen and (max-width: 375px) {
+    .whiteButton {
+        font-size: 13px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

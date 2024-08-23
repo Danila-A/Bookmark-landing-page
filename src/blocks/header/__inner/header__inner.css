@@ -1,0 +1,16 @@
+.header__inner {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.1s ease-in;
+}
+@media screen and (max-width: 375px) {
+    .header__inner {
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+}

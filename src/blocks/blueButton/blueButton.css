@@ -1,0 +1,27 @@
+.blueButton {
+    color: var(--white);
+    background-color: var(--blue);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: var(--nav_font_size);
+    border: 2px solid var(--blue);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    box-shadow: 0px 10px 10px var(--shadow);
+    cursor: pointer;
+    margin-right: 15px;
+}
+.blueButton:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+@media screen and (max-width: 375px) {
+    .blueButton {
+        font-size: 13px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

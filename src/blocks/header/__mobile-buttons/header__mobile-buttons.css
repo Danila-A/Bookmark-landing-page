@@ -1,0 +1,8 @@
+.header__mobile-buttons {
+    display: none;
+}
+@media screen and (max-width: 375px) {
+    .header__mobile-buttons {
+        display: block;
+    }
+}

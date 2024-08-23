@@ -1,0 +1,8 @@
+.navList__item {
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.navList__item:hover {
+    color: var(--red);
+}

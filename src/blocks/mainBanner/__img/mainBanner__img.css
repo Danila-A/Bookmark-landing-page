@@ -1,0 +1,14 @@
+.mainBanner__img {
+    flex-basis: 50%;
+    position: relative;
+}
+.mainBanner__img img {
+    width: 100%;
+}
+@media screen and (max-width: 375px) {
+    .mainBanner__img {
+        order: 1;
+        flex-basis: 100%;
+        padding-top: 70px;
+    }
+}

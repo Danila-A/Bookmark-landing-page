@@ -1,0 +1,15 @@
+.redButton {
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    color: var(--white);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+    box-shadow: 0px 10px 10px var(--shadow);
+}
+.redButton:hover {
+    background-color: var(--white);
+    color: var(--red);
+}

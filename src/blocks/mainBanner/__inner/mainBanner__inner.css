@@ -1,0 +1,10 @@
+.mainBanner__inner {
+    display: flex;
+    padding-top: 120px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 375px) {
+    .mainBanner__inner {
+        padding-top: 90px;
+    }
+}

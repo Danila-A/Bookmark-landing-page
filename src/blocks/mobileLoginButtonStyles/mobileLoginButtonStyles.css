@@ -1,0 +1,6 @@
+.mobileLoginButtonStyles {
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}

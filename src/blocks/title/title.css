@@ -1,0 +1,13 @@
+.title {
+    font-size: var(--title_font_size);
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+    line-height: 110%;
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 30px;
+        line-height: 135%;
+    }
+}

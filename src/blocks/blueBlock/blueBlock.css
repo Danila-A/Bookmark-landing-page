@@ -1,0 +1,12 @@
+.blueBlock {
+    background-color: var(--blue);
+    height: 325px;
+    width: 1000px;
+    border-radius: 200px;
+}
+@media screen and (max-width: 375px) {
+    .blueBlock {
+        height: 200px;
+        width: 850px;
+    }
+}
