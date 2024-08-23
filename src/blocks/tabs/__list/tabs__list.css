@@ -1,0 +1,9 @@
+.tabs__list {
+    display: flex;
+}
+@media  screen and (max-width: 375px) {
+    .tabs__list {
+        flex-direction: column;
+        border-bottom: 1px solid var(--text_color);
+    }
+}

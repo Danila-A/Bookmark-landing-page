@@ -1,0 +1,9 @@
+.features__text {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 375px) {
+    .features__text {
+        padding-top: 20px;
+    }
+}

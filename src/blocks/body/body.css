@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Rubik';
     font-style: normal;
@@ -90,7 +94,7 @@ table {
 
 @media screen and (max-width: 375px) {
     img {
-        width: 100%;
+        /* width: 100%; */
     }
     .body {
 

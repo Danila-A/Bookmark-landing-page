@@ -1,0 +1,16 @@
+.features__images {
+    position: relative;
+    flex-basis: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 80px;
+}
+@media screen and (max-width: 375px) {
+    .features__images {
+        padding-bottom: 40px;
+        flex-basis: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}

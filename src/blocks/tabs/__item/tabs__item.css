@@ -1,0 +1,25 @@
+.tabs__item{
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    flex-basis: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+.tabs__item:hover {
+    color: var(--red);
+}
+.tabs__item.checked {
+    border-bottom: 4px solid var(--red);
+    color: black;
+}
+@media screen and (max-width: 375px) {
+    .tabs__item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 17px;
+        flex-basis: 100%;
+        border-top: 1px solid var(--text_color);
+    }
+}

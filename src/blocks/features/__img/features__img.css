@@ -1,0 +1,12 @@
+.features__img {
+    height: 399px;
+}
+.features__img:not(.features__img.tabImg1) {
+    transform: scale(1.2);
+}
+@media screen and (max-width: 375px) {
+    .features__img {
+        height: 190px;
+    }
+
+}
