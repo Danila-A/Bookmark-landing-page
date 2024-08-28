@@ -1,0 +1,15 @@
+.contactForm__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 25%;
+}
+@media screen and (max-width: 375px) {
+    .contactForm__inner {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

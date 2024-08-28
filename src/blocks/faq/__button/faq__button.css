@@ -1,0 +1,9 @@
+.faq__button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.faq__button .blueButton {
+    margin-right: 0;
+}

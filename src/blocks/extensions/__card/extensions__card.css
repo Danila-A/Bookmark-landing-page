@@ -1,0 +1,29 @@
+.extensions__card {
+    flex-basis: 25%;
+    flex-shrink: 0;
+    box-shadow: 0px 10px 20px var(--shadow);
+    border-radius: 10px;
+    margin-right: 25px;
+    padding-top: 55px;
+}
+.extensions__card:first-child {
+    transform: translateY(-30px);
+}
+.extensions__card:last-child {
+    margin-right: 0;
+    transform: translateY(30px);
+}
+@media screen and (max-width: 375px) {
+    .extensions__card {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .extensions__card:first-child {
+        transform: translateY(0px);
+    }
+    .extensions__card:last-child {
+        transform: translateY(0px);
+        margin-bottom: 0px;
+    }
+}

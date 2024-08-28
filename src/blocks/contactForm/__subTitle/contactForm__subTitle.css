@@ -1,0 +1,14 @@
+.contactForm__subTitle {
+    color: var(--white);
+}
+.contactForm__subTitle h3 {
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--nav_font_size);
+}
+@media screen and (max-width: 375px) {
+    .contactForm__subTitle h3 {
+        font-size: 12px;
+    }
+}

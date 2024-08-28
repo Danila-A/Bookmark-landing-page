@@ -99,7 +99,7 @@
             <div class="sectionTitle">
                 <h2 class="sectionTitle__title sectionTitle__title_capitalize_none">Download the extension</h2>
                 <p class="sectionTitle__text">
-                    we've get more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.
+                    We've get more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.
                 </p>
             </div>
             <div class="extensions">
@@ -107,8 +107,8 @@
                     <div class="extensions__cardImg">
                         <img src="img/logo-chrome.svg" alt="chrome">
                     </div>
-                    <div class="extensions__cardTitle">card title</div>
-                    <div class="extensions__cardText">text</div>
+                    <div class="extensions__cardTitle">Add to Chrome</div>
+                    <div class="extensions__cardText">Minimum version 62</div>
                     <div class="extensions__cardBorderImg">
                         <img src="img/bg-dots.svg" alt="dots">
                     </div>
@@ -120,8 +120,8 @@
                     <div class="extensions__cardImg">
                         <img src="img/logo-firefox.svg" alt="firefox">
                     </div>
-                    <div class="extensions__cardTitle">card title</div>
-                    <div class="extensions__cardText">text</div>
+                    <div class="extensions__cardTitle">Add ot Firefox</div>
+                    <div class="extensions__cardText">Minimum version 55</div>
                     <div class="extensions__cardBorderImg">
                         <img src="img/bg-dots.svg" alt="dots">
                     </div>
@@ -133,8 +133,8 @@
                     <div class="extensions__cardImg">
                         <img src="img/logo-opera.svg" alt="opera">
                     </div>
-                    <div class="extensions__cardTitle">card title</div>
-                    <div class="extensions__cardText">text</div>
+                    <div class="extensions__cardTitle">Add to Opera</div>
+                    <div class="extensions__cardText">Minimum version 46</div>
                     <div class="extensions__cardBorderImg">
                         <img src="img/bg-dots.svg" alt="dots">
                     </div>
@@ -160,28 +160,32 @@
                         <summary>What is Bookmark?</summary>
                         <p>text</p>
                     </details>
+                    <img class="arrow" src="img/icon-arrow.svg" alt="arrow">
                 </div>
                 <div class="faq__questionsItem">
                     <details>
                         <summary>How can I request a new browser?</summary>
                         <p>text</p>
                     </details>
+                    <img class="arrow" src="img/icon-arrow.svg" alt="arrow">
                 </div>
                 <div class="faq__questionsItem">
                     <details>
                         <summary>Is there a mobile app?</summary>
                         <p>text</p>
                     </details>
+                    <img class="arrow" src="img/icon-arrow.svg" alt="arrow">
                 </div>
                 <div class="faq__questionsItem">
                     <details>
                         <summary>What about other Chromium browsers?</summary>
                         <p>text</p>
                     </details>
+                    <img class="arrow" src="img/icon-arrow.svg" alt="arrow">
                 </div>
             </div>
             <div class="faq__button">
-                <div class="blueButton">more info</div>
+                <button class="blueButton">more info</button>
             </div>
         </div>
     </section>
@@ -189,17 +193,19 @@
     <section class="contactForm">
         <div class="contactForm__inner contentConteiner">
             <div class="contactForm__subTitle">
-                <h3>
-                    35,000+ already joined
-                </h3>
+                <h3>35,000+ already joined</h3>
             </div>
             <div class="contactForm__title">
                 <h2>Stay up-to-date with what we're doing</h2>
             </div>
             <div class="contactForm__form">
-                <form action="" class="form">
-                    <input type="text" placeholder="Enter  your email address">
-                    <div class="rebButton">contact us</div>
+                <form class="form" action="">
+                    <div class="inputConteiner">
+                        <input class="form__input" type="text" placeholder="Enter  your email address">
+                        <div class="redBlock">Whoops, make sure it's an email</div>
+                        <img class="form__img" src="img/icon-error.svg" alt="">
+                    </div>
+                    <button class="form__button redButton">contact us</button>
                 </form>
             </div>
         </div>
@@ -208,18 +214,22 @@
     <footer class="footer">
         <div class="footer__inner contentConteiner">
             <div class="footer__logo">
-                <img src="img/logo-bookmark.svg" alt="">
+                <img class="footer__logoImg" src="img/logo-bookmark.svg" alt="">
             </div>
             <nav class="footer__nav">
                 <ul class="navList">
-                    <li class="navList__item">features</li>
-                    <li class="navList__item">pricing</li>
-                    <li class="navList__item">contact</li>
+                    <li class="footer__link navList__item">features</li>
+                    <li class="footer__link navList__item">pricing</li>
+                    <li class="footer__link navList__item">contact</li>
                 </ul>
             </nav>
             <div class="footer__social">
-                <img src="img/icon-facebook.svg" alt="facebook">
-                <img src="img/icon-twitter.svg" alt="twitter">
+                <div class="footer__socialIcon">
+                    <img src="img/icon-facebook.svg" alt="facebook">
+                </div>
+                <div class="footer__socialIcon">
+                    <img src="img/icon-twitter.svg" alt="twitter">
+                </div>
             </div>
         </div>
     </footer>

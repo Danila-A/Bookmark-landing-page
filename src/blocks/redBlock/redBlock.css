@@ -1,0 +1,15 @@
+.redBlock {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 0 0 5px 5px;
+    border: 2px solid var(--red);
+    transform: translateY(-3px);
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 10px;
+    opacity: 0;
+}
+.redBlock.display_block {
+    opacity: 1;
+}

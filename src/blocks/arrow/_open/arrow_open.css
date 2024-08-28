@@ -1,0 +1,6 @@
+.arrow_open {
+    transform: rotateZ(180deg);
+}
+.arrow_open path {
+    stroke: #fb5859;
+}

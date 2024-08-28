@@ -1,0 +1,11 @@
+.extensions__cardButton {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.extensions__cardButton .blueButton {
+    margin-right: 0;
+    text-align: center;
+    text-transform: capitalize;
+}

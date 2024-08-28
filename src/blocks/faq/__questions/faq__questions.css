@@ -1,0 +1,13 @@
+.faq__questions {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+@media screen and (max-width: 375px) {
+    .faq__questions {
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+}

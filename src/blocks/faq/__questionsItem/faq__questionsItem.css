@@ -1,0 +1,22 @@
+.faq__questionsItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--text_color);
+    cursor: pointer;
+    position: relative;
+}
+.faq__questionsItem:first-child {
+    border-top: 1px solid var(--text_color);
+}
+.faq__questionsItem summary {
+    color: black;
+}
+.faq__questionsItem summary:hover {
+    color: var(--red);
+}
+.faq__questionsItem p {
+    color: var(--soft_black);
+}
+details > summary {
+    list-style: none;
+}

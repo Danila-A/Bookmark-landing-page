@@ -1,0 +1,64 @@
+.contactForm__form {
+    padding-top: 40px;
+    width: 100%;
+}
+.contactForm__form form {
+    display: flex;
+}
+.inputConteiner {
+    flex-basis: 70%;
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.inputConteiner img {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: none;
+}
+.inputConteiner img.errorImg_display_block {
+    display: block;
+}
+.contactForm__form form input {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    border: 3px solid transparent;
+}
+.contactForm__form form input.error {
+    border: 3px solid var(--red);
+}
+.contactForm__form .redButton {
+    flex-basis: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    box-shadow: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    align-self: self-start;
+}
+@media screen and (max-width: 375px) {
+    .contactForm__form form {
+        flex-direction: column;
+    }
+    .inputConteiner {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .contactForm__form form input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .redButton {
+        width: 100%;
+    }
+}

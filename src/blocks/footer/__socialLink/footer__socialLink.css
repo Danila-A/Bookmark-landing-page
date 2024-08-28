@@ -1,0 +1,6 @@
+.footer__socialLink{
+    cursor: pointer;
+}
+.footer__socialLink:hover path {
+    fill: var(--red);
+}
