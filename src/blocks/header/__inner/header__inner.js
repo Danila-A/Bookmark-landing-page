@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', startUp);
+document.addEventListener('DOMContentLoaded', setHeaderBackGround);
 
-function startUp() {
+function setHeaderBackGround() {
     const headerInner = document.querySelector('.header__inner');
 
     window.addEventListener('scroll', changeBackground, false);

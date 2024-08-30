@@ -27,7 +27,6 @@ function hideImg(img) {
 
 function uncheckedAll() {
     const tabs = document.querySelectorAll('.tabs__item');
-
     tabs.forEach(uncheckItem);
 }
 
