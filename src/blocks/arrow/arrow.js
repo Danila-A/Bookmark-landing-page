@@ -15,14 +15,13 @@ function getAndSetArrows() {
 
 function setArrows() {
     const questions = document.querySelectorAll('.faq__questionsItem');
-    for (let i = 0; i < 4; i++) {
-        questions[i].childNodes[1].replaceWith(blueArrow.cloneNode(true));
-    }
-
+    
+    for (let i = 0; i < 4; i++) questions[i].childNodes[1].replaceWith(blueArrow.cloneNode(true));
+    
     const arrows = document.querySelectorAll('.arrow');
 
     for (let arrow of arrows) {
-        arrow.addEventListener('click', (e) => {
+        arrow.addEventListener('click', () => {
             arrow.closest('.faq__questionsItem').childNodes[0].toggleAttribute('open');
             arrow.classList.toggle('arrow_open');
         })
