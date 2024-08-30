@@ -13,9 +13,10 @@ document.querySelector('.form__button').addEventListener('click', (e) => {
 
 function checkEmail() {
     const input = document.querySelector('.form__input');
-    // nigger.spn@mail.ru
-    if(emailRegularExpression.test(input.value) &&
-       !russianLettersRegularExpression.test(input.value)) {
+    let isValidInputData = emailRegularExpression.test(input.value) && 
+                           !russianLettersRegularExpression.test(input.value);
+
+    if(isValidInputData) {
         if(window.innerWidth <= 375) formButton.style.transform = 'translateY(-30px)';
         hideError(input);
         console.log('good');
