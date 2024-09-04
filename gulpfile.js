@@ -105,7 +105,7 @@ function minImg() {
 function watch() {
     browserSync.init({
         server: {
-            baseDir: "./dist/"
+            baseDir: "./docs/"
         }
     });
     gulp.watch(paths.html.dest).on('change', browserSync.reload);
