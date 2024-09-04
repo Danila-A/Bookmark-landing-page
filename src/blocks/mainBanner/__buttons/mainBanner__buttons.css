@@ -1,7 +1,7 @@
 .mainBanner__buttons {
     padding-top: 30px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .mainBanner__buttons {
         display: flex;
         justify-content: center;

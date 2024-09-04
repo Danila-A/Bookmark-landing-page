@@ -14,7 +14,7 @@
     border-bottom: 4px solid var(--red);
     color: black;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .tabs__item {
         padding-top: 15px;
         padding-bottom: 15px;

@@ -3,7 +3,7 @@
     padding-left: 50px;
     color: var(--white);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .footer__nav {
         padding-top: 30px;
         padding-left: 0;

@@ -3,7 +3,7 @@
     padding-top: 120px;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .mainBanner__inner {
         padding-top: 90px;
     }

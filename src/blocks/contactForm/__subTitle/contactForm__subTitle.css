@@ -7,7 +7,7 @@
     text-transform: uppercase;
     font-size: var(--nav_font_size);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .contactForm__subTitle h3 {
         font-size: 12px;
     }

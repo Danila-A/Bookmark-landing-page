@@ -2,7 +2,7 @@
     padding-top: 25px;
     width: 80%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .mainBanner__text {
         text-align: center;
         width: 100%;

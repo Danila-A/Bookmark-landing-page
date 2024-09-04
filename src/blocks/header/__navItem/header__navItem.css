@@ -4,7 +4,7 @@
 .header__navItem:last-child {
     margin-right: 0;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .header__navItem {
         width: 100%;
         color: var(--white);

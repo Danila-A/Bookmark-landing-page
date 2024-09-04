@@ -3,7 +3,7 @@
     padding-left: 100px;
     padding-top: 60px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .features__info {
         flex-basis: 100%;
         padding-top: 40px;

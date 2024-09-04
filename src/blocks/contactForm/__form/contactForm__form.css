@@ -46,7 +46,7 @@
     font-weight: bold;
     align-self: self-start;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .contactForm__form form {
         flex-direction: column;
     }

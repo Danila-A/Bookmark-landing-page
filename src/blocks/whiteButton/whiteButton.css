@@ -16,7 +16,7 @@
 .whiteButton:hover {
     border: 2px solid var(--soft_black);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .whiteButton {
         font-size: 13px;
         padding-right: 15px;

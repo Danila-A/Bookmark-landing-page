@@ -1,7 +1,7 @@
 .features__tabs {
     padding-top: 80px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .features__tabs {
         padding-top: 50px;
     }

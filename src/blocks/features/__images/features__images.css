@@ -6,7 +6,7 @@
     justify-content: end;
     padding-bottom: 80px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .features__images {
         padding-bottom: 40px;
         flex-basis: 100%;

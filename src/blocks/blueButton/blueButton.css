@@ -18,7 +18,7 @@
     background-color: var(--white);
     color: var(--blue);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .blueButton {
         font-size: 13px;
         padding-right: 15px;

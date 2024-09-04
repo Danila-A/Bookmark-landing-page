@@ -92,7 +92,7 @@ table {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .body {
         font-size: var(--nav_font_size);
     }

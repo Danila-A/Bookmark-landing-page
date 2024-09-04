@@ -6,7 +6,7 @@ function setHeaderBackGround() {
     window.addEventListener('scroll', changeBackground, false);
 
     function changeBackground() {
-        if(window.scrollY > 0 && window.innerWidth <= 375) {
+        if(window.scrollY > 0 && window.innerWidth <= 420) {
             headerInner.style.backgroundColor = 'white';
             headerInner.style.boxShadow = '0 5px 15px black';
         }

@@ -3,7 +3,7 @@ const russianLettersRegularExpression = /[а-я]/;
 const formButton = document.querySelector('.form__button');
 
 document.addEventListener('DOMContentLoaded', () => {
-    if(window.innerWidth <= 375) formButton.style.transform = 'translateY(-30px)';
+    if(window.innerWidth <= 420) formButton.style.transform = 'translateY(-30px)';
 });
 
 document.querySelector('.form__button').addEventListener('click', (e) => {
@@ -17,12 +17,12 @@ function checkEmail() {
                            !russianLettersRegularExpression.test(input.value);
 
     if(isValidInputData) {
-        if(window.innerWidth <= 375) formButton.style.transform = 'translateY(-30px)';
+        if(window.innerWidth <= 420) formButton.style.transform = 'translateY(-30px)';
         hideError(input);
         console.log('good');
     }
     else {
-        if(window.innerWidth <= 375) formButton.style.transform = 'translateY(0px)';
+        if(window.innerWidth <= 420) formButton.style.transform = 'translateY(0px)';
         showError(input);
     }
 }

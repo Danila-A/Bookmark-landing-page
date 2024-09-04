@@ -5,7 +5,7 @@
 .mainBanner__img img {
     width: 100%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .mainBanner__img {
         order: 1;
         flex-basis: 100%;

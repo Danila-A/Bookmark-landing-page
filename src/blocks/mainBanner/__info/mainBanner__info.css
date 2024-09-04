@@ -4,7 +4,7 @@
     flex-direction: column;
     padding-top: 70px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .mainBanner__info {
         order: 2;
         flex-basis: 100%;

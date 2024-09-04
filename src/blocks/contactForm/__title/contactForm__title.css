@@ -6,7 +6,7 @@
     line-height: 120%;
     font-weight: bold;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .contactForm__title h2 {
         font-size: 28px;
         padding-top: 10px;

@@ -4,7 +4,7 @@
     width: 45%;
     margin: 0 auto;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .sectionTitle__text {
         width: 100%;
         padding-right: 25px;

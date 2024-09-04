@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .header__nav {
         position: fixed;
         display: none;
