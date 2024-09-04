@@ -20,19 +20,19 @@ const htmlmin = require('gulp-htmlmin');
 const paths = {
     html: {
         src: 'src/*.html',
-        dest: 'dist'
+        dest: 'docs'
     },
     styles: {
         src: ['src/blocks/**/*.css'],
-        dest: 'dist/css/'
+        dest: 'docs/css/'
     },
     scripts: {
         src: 'src/blocks/**/*.js',
-        dest: 'dist/js/'
+        dest: 'docs/js/'
     },
     images: {
         src: 'src/img/**',
-        dest: 'dist/img/'
+        dest: 'docs/img/'
     },
     fonts: {
         src: [
@@ -41,12 +41,12 @@ const paths = {
             'src/fonts/**/*.ttf',
             'src/fonts/**/*.eot',
             ],
-        dest: 'dist/fonts/'
+        dest: 'docs/fonts/'
     }
 }
 
 function clean() {
-    return del(['dist/*', '!dist/img']);
+    return del(['docs/*', '!docs/img']);
 }
 
 function html() {
